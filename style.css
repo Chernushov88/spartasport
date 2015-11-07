@@ -16,20 +16,29 @@
     font-style: normal;
 
 }*/
-   @font-face {
-    font-family: 'PFStampsProMeta';
-    src: url('fonts/PFStampsProMeta.eot');
-    src: url('fonts/PFStampsProMeta.eot?#iefix') format('embedded-opentype'),
-         url('fonts/PFStampsProMeta.woff2') format('woff2'),
-         url('fonts/PFStampsProMeta.woff') format('woff'),
-         url('fonts/PFStampsProMeta.ttf') format('truetype'),
-         url('fonts/PFStampsProMeta.svg#fonts/PFStampsProMeta') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+@font-face {
+font-family: 'PFStampsProMeta';
+src: url('fonts/PFStampsProMeta.eot');
+src: url('fonts/PFStampsProMeta.eot?#iefix') format('embedded-opentype'),
+     url('fonts/PFStampsProMeta.woff2') format('woff2'),
+     url('fonts/PFStampsProMeta.woff') format('woff'),
+     url('fonts/PFStampsProMeta.ttf') format('truetype'),
+     url('fonts/PFStampsProMeta.svg#fonts/PFStampsProMeta') format('svg');
+font-weight: normal;
+font-style: normal;
 }
 
-
+@font-face {
+font-family: 'AMachinaOrtoSht';
+src: url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.eot');
+src: url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.eot?#iefix') format('embedded-opentype'),
+     url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.woff2') format('woff2'),
+     url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.woff') format('woff'),
+     url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.ttf') format('truetype'),
+     url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.svg#fonts/AMachinaOrtoSht/AMachinaOrtoSht') format('svg');
+font-weight: normal;
+font-style: normal;
+}
 /* ------------------------------ Конец блока присоединения шрифтов ------------------------------*/
 
 /*-----------------------------------------------------------------------------------*/
@@ -73,7 +82,6 @@ header{
 	display: inline-block;
 	padding: 13px 0 11px 0;
     text-transform: uppercase;
-    font-family: 
     font-size: 14px;
     color: #fff;
     letter-spacing: -.3px;
@@ -107,9 +115,8 @@ header{
 .header-inside{
 	overflow: hidden;
 	width: 1170px;
-	height: 142px;
 	margin: 0 auto;
-	padding: 17px 0 0 0;
+	padding: 17px 0 12px 0;
 	border: 1px solid #00ccff;
 }
 .logo{
@@ -126,6 +133,7 @@ header{
 }
 .hi-center p{
 	width: 485px;
+	padding: 2px 0 0 0;
 	font-style: italic;
 	font-size: 16px;
 	line-height: 18px;
@@ -159,7 +167,7 @@ form.hi-form{
 }
 form.hi-form li:last-child{
 	position: relative;
-	margin: 17px 0 0 0;
+	margin: 18px 0 0 0;
 }
 form.hi-form ul li a{
 	display: inline-block;
@@ -230,11 +238,11 @@ form.hi-form :-ms-input-placeholder {
 /* ------------------------------  Start block-1 ------------------------------ */
 .block-1{
 	width: 100%;
-	background: url(images/block-1-bg.jpg) center 0;
+	background: url(images/block-1-bg.jpg) center 0 no-repeat;
 }
 .block-1-inside{
 	width: 1170px;
-	height: 578px;
+	height: 589px;
 	margin: 0 auto;
 	border: 1px solid #9DC0DD;
 }
@@ -407,7 +415,7 @@ li.img-hover a:hover{
 }
 .logo-2{
 	overflow: hidden;
-	padding: 37px 0 10px 0;
+	padding: 33px 0 10px 0;
     border-bottom: 1px dotted #ccc;
 }
 .logo-2 a.logo-2-a{
@@ -429,7 +437,7 @@ li.img-hover a:hover{
 .porduct{
 	position: relative;
 	width: 18%;
-    margin: 32px 64px 0 11px;
+    margin: 32px 64px 7px 11px;
 	float: left;
 }
 .porduct-4{
@@ -526,17 +534,24 @@ li.img-hover a:hover{
 .show-more{
 	width: 245px;
 	height: 42px;
-	margin: 20px auto;
+	margin: 36px auto 47px auto;
 	background: #f2f2f2;
 	border: 1px solid #cfcfcf;
 }
+.show-more:hover{
+	background: #cfcfcf;
+}
 .show-more a{
-	display: block;
-	padding: 13px 0 13px 13px;
-	text-align: center;
+	display: inline-block;
+    padding: 13px 32px 13px 10px;
+    text-align: left;
 	font-size: 15px;
 	color: #959393;
 	background: url(images/block-3/show-more-a.png) right center no-repeat;
+}
+.show-more a:hover{
+	text-decoration: underline;
+	color: #000;
 }
 /* ------------------------------  Stop block-3 ------------------------------ */
 
@@ -546,12 +561,97 @@ li.img-hover a:hover{
 	background: url(images/block-4-bg.jpg) center 0;
 }
 .block-4-inside{
+	position: relative;
 	width: 1170px;
 	height: 377px;
 	margin: 0 auto;
 	border: 1px solid #4154D1;
 }
-
+.blai4-left{
+	position: absolute;
+    top: -169px;
+    left: 4px;
+}
+.blai4-right{
+	position: absolute;
+	right: -60px;
+    width: 694px;
+    padding: 93px 0 0 0;
+}
+.blai4-top h3{
+	width: 350px;
+	font-family: 'AMachinaOrtoSht';	
+	color: #fff;
+	float: left;
+}
+.sing-up{
+	font-size: 43px;
+	float: left;
+}
+.subsc{
+	line-height: 65px;
+	font-size: 72px;
+	float: left;
+}
+.sign{
+	padding: 0 0 0 5px;
+	line-height: 114px;
+    font-size: 127px;    
+}
+.blai4-top p{
+	display: inline-block;
+    width: 332px;
+    padding: 3px 0 0 0;
+    line-height: 17px;
+	font-size: 14px;
+	color: #fff;
+	float: right;
+}
+.blai4-form{
+	overflow: hidden;
+	padding: 20px 0 0 0;
+}
+.blai4-form input[type=text]{
+    width: 320px;
+    height: 35px;
+    margin: 0 26px 0 0;
+    padding: 0 49px 0 10px;   
+    font-size: 15px;
+    letter-spacing: 1px;
+    border: 1px solid #9c9c9c;    
+    float: left;
+}
+.blai4-form input[type=submit]{
+    width: 260px;
+    height: 35px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 23px;
+    color: #fff;
+    background: #fc7f06;
+    border: none;
+}
+.blai4-form input[type=submit]:hover{
+	color: #fc7f06;
+	background: #fff;
+}
+.blai4-form ::-webkit-input-placeholder {+
+    font-size: 15px;
+    color: #959393;
+}
+.blai4-form :-moz-placeholder { 
+    font-size: 15px;
+    color: #959393;
+}
+.blai4-form ::-moz-placeholder { 
+	font-size: 15px;
+	color: #959393;
+}
+.blai4-form :-ms-input-placeholder {
+	font-size: 15px;
+    color: #959393;
+}
 /* ------------------------------  Stop block-4 ------------------------------ */
 /* ------------------------------  Start block-5 ------------------------------ */
 .block-5{
@@ -561,9 +661,104 @@ li.img-hover a:hover{
 	width: 1170px;
 	height: 1865px;
 	margin: 0 auto;
+    padding: 10px 0 0 0;
 	border: 1px solid #4154D1;
 }
-
+.tabs{
+    padding: 20px 0;
+}
+.tabs__caption{
+	overflow: hidden;
+	border-bottom: 1px dotted #979797;
+}
+.tabs__caption li:first-child{
+	padding-left: 0;
+}
+.tabs__caption li {
+	position: relative;	
+	display: block;
+    padding: 16px 12px 17px 10px;
+	cursor: pointer;
+	font-family: 'PFStampsProMeta';
+	font-size: 23px;
+	color: #979797;
+	border: 1px dotted #979797;
+	border-bottom: none;
+	float: left;	
+}
+.tabs__caption .active {	
+	color: #fc7f06;
+	border: none;
+}
+.tabs__caption li.active:before {
+	position: absolute;
+    bottom: 2px;
+    left: 0;
+    display: block;
+    content: "";
+    width: 100%;
+    height: 9px;
+    background: #fff url(images/tab-caption-active.png) center top no-repeat;
+    z-index: 100;
+}
+.tabs__content {
+	display: none;
+	padding: 14px 0 27px 0;
+}
+.tabs__content.active {
+	display: block;
+}
+/* porduct-catalog2 */
+.porduct-catalog2{
+	overflow: hidden;
+	margin: -5px 0 0 0;
+	padding: 0 0 0 11px;
+}
+.porduct2{
+	position: relative;
+	width: 14%;
+    margin: 32px 23px 7px 41px;
+	float: left;
+}
+.porduct-5{
+	margin-right: 0;
+}
+.porduct2 > li > a > img{
+	display: table;
+    margin: 0 auto;
+}
+/* bl5-bottom */
+.spanta{
+	overflow: hidden;
+	padding: 67px 0 20px 0;
+	border-top: 1px dotted #979797;
+}
+.spanta img{
+	float: left;
+}
+.sparta-desc{
+	width: 720px;
+	float: right;
+}
+.sparta-desc h3{
+	padding: 2px 0 11px 0;
+	text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 23px;
+    color: #fc7f06;
+}
+.sparta-desc p{
+	padding: 0 0 16px 0;
+    font-size: 14px;
+    color: #000;
+    line-height: 17px;
+    letter-spacing: .4px;
+}
+/* comments */
+.comment-desc{
+	width: 80%;
+	float: right;
+}
 /* ------------------------------  Stop block-5 ------------------------------ */
 
 /* ------------------------------  Start footer ------------------------------ */
