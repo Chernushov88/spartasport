@@ -20,7 +20,7 @@
 font-family: 'PFStampsProMeta';
 src: url('fonts/PFStampsProMeta.eot');
 src: url('fonts/PFStampsProMeta.eot?#iefix') format('embedded-opentype'),
-     url('fonts/PFStampsProMeta.woff2') format('woff2'),
+
      url('fonts/PFStampsProMeta.woff') format('woff'),
      url('fonts/PFStampsProMeta.ttf') format('truetype'),
      url('fonts/PFStampsProMeta.svg#fonts/PFStampsProMeta') format('svg');
@@ -32,7 +32,7 @@ font-style: normal;
 font-family: 'AMachinaOrtoSht';
 src: url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.eot');
 src: url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.eot?#iefix') format('embedded-opentype'),
-     url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.woff2') format('woff2'),
+
      url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.woff') format('woff'),
      url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.ttf') format('truetype'),
      url('fonts/AMachinaOrtoSht/AMachinaOrtoSht.svg#fonts/AMachinaOrtoSht/AMachinaOrtoSht') format('svg');
@@ -55,6 +55,9 @@ a{
 }
 .clear{
 	clear: both;
+}
+.tablet-visible{
+	display: none;
 }
 
 /* ------------------------------  Start header ------------------------------ */
@@ -116,8 +119,8 @@ header{
 	overflow: hidden;
 	width: 1170px;
 	margin: 0 auto;
-	padding: 17px 0 12px 0;
-	border: 1px solid #00ccff;
+	padding: 17px 0 33px 0;
+	border: 0px solid #00ccff;
 }
 .logo{
 	padding: 10px 0 0 2px;
@@ -197,7 +200,6 @@ form.hi-form input[type=text]{
     height: 36px;
     padding: 0 49px 0 10px;   
     white-space: nowrap;
-    vertical-align:center; 
     font-size: 14px;
     letter-spacing: 1px;
     border: 1px solid #9c9c9c;    
@@ -213,7 +215,7 @@ form.hi-form input[type=submit]{
     border-radius: 43%;
     border: none;
 }
-form.hi-form ::-webkit-input-placeholder {+
+form.hi-form ::-webkit-input-placeholder {
     font-size: 15px;
     color: #959393;
 }
@@ -238,17 +240,95 @@ form.hi-form :-ms-input-placeholder {
 /* ------------------------------  Start block-1 ------------------------------ */
 .block-1{
 	width: 100%;
-	background: url(images/block-1-bg.jpg) center 0 no-repeat;
+	background: url(images/block-1/block-1-bg.jpg) center 0 no-repeat;
 }
 .block-1-inside{
 	width: 1170px;
 	height: 589px;
 	margin: 0 auto;
-	border: 1px solid #9DC0DD;
+	border: 0px solid #9DC0DD;
+}
+.b1i-slider{
+	width: 478px;
+	height: 400px;
+	margin: 0 10px 0 0;
+	padding: 81px 0 0 0;
+	float: right;
+}
+.bxslider-li-content{
+	padding: 30px 25px 0 0;	
+}
+.li-content-inside{
+	width: 432px;
+	height: 369px;
+	background: rgba(1,1,1,0.6);
+	border: 1px solid #fc7f05;
+}
+.li-content-inside:after{
+	content: '';
+	position: absolute;
+	top: 189px;
+	right: 21px;
+	display: block;
+	width: 27px;
+	height: 49px;
+	background: url(images/block-1/bxslider-after-bg.png);
+}
+.li-content-inside h2{
+	width: 230px;
+	padding: 22px 0 0 68px;
+    font-family: 'AMachinaOrtoSht';
+    text-transform: uppercase;
+    color: #fc7f06;
+}
+.hadkor{
+	position: absolute;
+    top: 87px;
+    left: -4px;
+    display: block;
+    width: 100px;
+    height: 30px;
+    font-size: 31px;
+	 -moz-transform: rotate(270deg); /* Для Firefox */
+    -ms-transform: rotate(270deg); /* Для IE */
+    -webkit-transform: rotate(270deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(270deg); /* Для Opera */
+    transform: rotate(270deg);
+	
+}
+.amplifier{
+	font-size: 43px;
+}
+.myshtsa{
+	line-height: 64px;
+	font-size: 72px;
+}
+.bxslider-text{
+	padding: 35px 32px 23px 14px;
+    line-height: 21px;
+    font-size: 18px;
+	color: #fff;
+}
+.bxslider-more{
+	display: block;
+    margin: 0 auto 0 auto;
+    width: 190px;
+    height: 35px;
+    padding: 6px 0 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 23px;
+    color: #fff;
+    background: #fc7f06;
+}
+.bxslider-more:hover{
+	color: #fc7f06;
+    background: #DBDADA;
 }
 /* ------------------------------  Stop block-1 ------------------------------ */
 
-/* ------------------------------  Start  ------------------------------ */
+/* ------------------------------  Start block-2 ------------------------------ */
 .block-2{
 	width: 100%;
 }
@@ -257,7 +337,7 @@ form.hi-form :-ms-input-placeholder {
 	width: 1170px;
 	margin: 0 auto;
 	padding: 11px 0 0 0;
-	border: 1px solid #f0C0D1;
+	border: 0px solid #f0C0D1;
 }
 .bl2-ul{
 	width: 354px;
@@ -293,10 +373,10 @@ form.hi-form :-ms-input-placeholder {
 li.img-hover a{
 	display: block;
 	position: absolute;
-	top: 17px;
-	left: 15px;
-	width: 324px;
-    height: 185px;
+    top: 16px;
+    left: 15px;
+    width: 323px;
+    height: 183px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -312,9 +392,9 @@ li.img-hover a:hover{
 	font-size: 14px;
 	color: #000;
 }
-/* ------------------------------  Stop  ------------------------------ */
+/* ------------------------------  Stop block-2 ------------------------------ */
 
-/* ------------------------------  Start  ------------------------------ */
+/* ------------------------------  Start block-3 ------------------------------ */
 .block-3{
 	width: 100%;
 }
@@ -323,7 +403,7 @@ li.img-hover a:hover{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 25px 0 0 0;
-	border: 1px solid #4154D1;
+	border: 0px solid #4154D1;
 }
 .block-3-inside h3 a{
 	display: inline-block;	    
@@ -408,15 +488,15 @@ li.img-hover a:hover{
 }
 .b3-content > h3 > a{
 	display: block;
-	padding: 0 0 13px 0px;
+	padding: 0 0 7px 0px;
 }
 .b3-content > h3{
-	border-bottom: 1px dotted  #ccc;
+	border-bottom: 1px dotted  #acacac;
 }
 .logo-2{
 	overflow: hidden;
 	padding: 33px 0 10px 0;
-    border-bottom: 1px dotted #ccc;
+    border-bottom: 1px dotted #acacac;
 }
 .logo-2 a.logo-2-a{
 	display: inline-block;
@@ -428,6 +508,10 @@ li.img-hover a:hover{
     border: none;
 }
 /* Stop b3-content */
+/* swiper-slider */
+.swiper-slider{
+	padding: 7px 0 0 0;
+}
 /* Start porduct-catalog */
 .porduct-catalog{
 	overflow: hidden;
@@ -565,7 +649,7 @@ li.img-hover a:hover{
 	width: 1170px;
 	height: 377px;
 	margin: 0 auto;
-	border: 1px solid #4154D1;
+	border: 0px solid #4154D1;
 }
 .blai4-left{
 	position: absolute;
@@ -636,7 +720,7 @@ li.img-hover a:hover{
 	color: #fc7f06;
 	background: #fff;
 }
-.blai4-form ::-webkit-input-placeholder {+
+.blai4-form ::-webkit-input-placeholder {
     font-size: 15px;
     color: #959393;
 }
@@ -662,7 +746,7 @@ li.img-hover a:hover{
 	height: 1865px;
 	margin: 0 auto;
     padding: 10px 0 0 0;
-	border: 1px solid #4154D1;
+	border: 0px solid #4154D1;
 }
 .tabs{
     padding: 20px 0;
@@ -728,19 +812,19 @@ li.img-hover a:hover{
     margin: 0 auto;
 }
 /* bl5-bottom */
-.spanta{
+.sparta{
 	overflow: hidden;
-	padding: 67px 0 20px 0;
+	padding: 67px 0 56px 0;
 	border-top: 1px dotted #979797;
 }
-.spanta img{
+.sparta img{
 	float: left;
 }
 .sparta-desc{
 	width: 720px;
 	float: right;
 }
-.sparta-desc h3{
+.sparta-desc h4{
 	padding: 2px 0 11px 0;
 	text-transform: uppercase;
     font-family: 'PFStampsProMeta';
@@ -755,9 +839,37 @@ li.img-hover a:hover{
     letter-spacing: .4px;
 }
 /* comments */
+.comments h3{
+    padding: 0px 0 16px 0;
+	text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 23px;
+    color: #fc7f06;
+    
+}
 .comment-desc{
-	width: 80%;
+    width: 79%;
+    padding: 34px 43px 35px 0;
+    background: url(images/block-5/comment-desc-bg.png) no-repeat 3px 33px;
 	float: right;
+}
+.comment-desc h5{
+	padding: 0 0 0 76px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #fc7f06;
+    letter-spacing: 0.5px;
+}
+.comment-desc span{
+	display: block;
+	padding: 4px 0 12px 74px;
+	font-size: 16px;
+}
+.comment-desc p{
+	padding: 0 0 18px 0;
+    line-height: 16px;
+    font-style: italic;
+	font-size: 14px;
 }
 /* ------------------------------  Stop block-5 ------------------------------ */
 
@@ -771,7 +883,152 @@ footer{
 	width: 1170px;
 	height: 387px;
 	margin: 0 auto;
+	padding: 69px 0 0 0;
+	border: 0px solid #fcf;
 }
+.footer-inside h4{
+	padding: 0px 0 20px 24px;
+	text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 18px;
+    color: #fc7f06;
+}
+.menu{
+    width: 154px;
+	float: left;
+}
+.menu ul{
+	padding: 4px 0 0 0;
+}
+.menu a{
+	line-height: 16px;
+    /*text-transform: capitalize;*/
+    font-size: 14px;
+    color: #fff;
+}
+.menu a:hover{
+	text-decoration: underline;
+	color: #ffc;
+}
+.menu h4{
+	background: url(images/footer/menu-bg.png) 0px 0px no-repeat;
+}
+.connected{
+	width: 233px;
+	float: left;
+}
+.connected h4{
+	background: url(images/footer/connected-bg.png) 0px 0px no-repeat;
+}
+.connected li{
+	padding: 0 14px 0 0;
+	float: left;
+}
+.connected li a{
+	display: block;
+	width: 28px;
+	height: 29px;
+}
+.connected li:first-child a{
+	background: url(images/footer/social/1.png) 0px 0px no-repeat;
+}
+.connected li:nth-child(2) a{
+	background: url(images/footer/social/2.png) 0px 0px no-repeat;
+}
+.connected li:nth-child(3) a{
+	background: url(images/footer/social/3.png) 0px 0px no-repeat;
+}
+.connected li:last-child a{
+	background: url(images/footer/social/4.png) 0px 0px no-repeat;
+}
+.connected li:first-child a:hover{
+	background: url(images/footer/social/1-hover.png) 0px 0px no-repeat;
+}
+.connected li:nth-child(2) a:hover{
+	background: url(images/footer/social/2-hover.png) 0px 0px no-repeat;
+}
+.connected li:nth-child(3) a:hover{
+	background: url(images/footer/social/3-hover.png) 0px 0px no-repeat;
+}
+.connected li:last-child a:hover{
+	background: url(images/footer/social/4-hover.png) 0px 0px no-repeat;
+}
+.spartaSport{
+	width: 330px;
+	float: left;
+}
+.spartaSport h4{
+	background: url(images/footer/spartaSport-bg.png) 0px 0px no-repeat;
+}
+.spartaSport p{
+	padding: 2px 0 0 2px;
+    text-align: justify;
+    line-height: 17px;
+	font-size: 14px;
+	color: #fff;
+}
+.footer-calback{
+	width: 404px;
+	padding: 0;
+	float: right;
+}
+.footer-calback h4{
+	background: url(images/footer/calback-bg.png) 0px 0px no-repeat;
+}
+.footer-calback input[type=text]{
+    width: 189px;
+    height: 35px;
+    margin: 0 0px 14px 0;
+    padding: 1px 0px 0 7px; 
+    font-size: 15px;
+    border: 1px solid #9c9c9c;     
+}
+.name{
+	float: left;
+}
+.email{
+	float: right;
+}
+textarea{
+	width: 404px;
+    min-height: 80px;
+    padding: 8px 0px 0 9px;
+    font-size: 15px;
+    border: 1px solid #9c9c9c; 
+}
+.footer-calback input[type=submit]{
+    width: 172px;
+    height: 35px;
+    margin: 14px 0 0 0;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 19px;
+    color: #fff;
+    background: #fc7f06;
+    border: none;
+}
+.footer-calback input[type=submit]:hover{
+	color: #fc7f06;
+	background: #fff;
+}
+.footer-calback ::-webkit-input-placeholder {
+    font-size: 15px;
+    color: #959393;
+}
+.footer-calback :-moz-placeholder { 
+    font-size: 15px;
+    color: #959393;
+}
+.footer-calback ::-moz-placeholder { 
+	font-size: 15px;
+	color: #959393;
+}
+.footer-calback :-ms-input-placeholder {
+	font-size: 15px;
+    color: #959393;
+}
+
 /* Stop footer-inside */
 
 
@@ -785,6 +1042,36 @@ footer{
 	height: 49px;
 	margin: 0 auto;
 }
+.fb-inside p{
+	padding: 30px 0 0 40px;
+	font-size: 14px;
+	color: #fff;
+}
 /* Stop footer-bottom */
-
+#scroll{
+	position: fixed;    
+	bottom: 30px;
+	right: 375px;	
+	display:none;
+	width: 72px;
+	height: 72px;
+	padding: 11px 0 0 0;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+	color: #fff;
+	background: #1e1e1e;
+	border: 5px solid #fc7f05;
+}
+#scroll:hover{
+	opacity: 0.8;
+}
+#scroll:before{
+	content: '';
+    display: block;
+    margin: 0 auto 6px auto;
+    width: 18px;
+    height: 15px;
+    background: url(images/scroll-bg.png);
+}
 /* ------------------------------  Stop footer ------------------------------ */

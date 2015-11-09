@@ -1,13 +1,59 @@
-﻿@media (min-width:1900px) and (max-width:4000px){ 
+﻿ 
+ @media (min-width:892px) and (max-width:1187px){ 
+ 	/* header */
+ 	.tablet-visible {display: block !important;}
+ 	.desctop-visible {display: none;}
+	div.hnt-inside {width: 892px;}
+	nav.hnt-left li {padding: 0 15px 0 3px;}
+	nav.hnt-left li a {letter-spacing: 0px;}
+	div.header-inside {width: 892px; padding: 7px 0 33px 0;}
+	.logo img{width: 169px;}
+	.header-inside form.hi-form {float: none;}
+	form.hi-form li:first-child {position: relative; margin: 18px 0 0 0; float: left;}
+	form.hi-form ul li:last-child {float: right; margin-right: 31px;}
+	form.hi-form li input[type=text] {width: 284px; height: 38px; margin: 0 0 0 53px; float: left;}
+	.header-inside form.hi-form > ul > li > a {height: 38px; padding: 9px 0 0 28px; letter-spacing: 1px;}
+	a.star {background: #fff url(../images/header/star-bg.png) 7px 6px no-repeat;}
+	a.card {background: #fc7f06 url(../images/header/card-bg.png) 16px 7px no-repeat;}
+	div.hi-center ul {padding: 22px 0 0 38px;}
+	
+	/* block-1 */
+	div.block-1-inside {width: 882px;}
+	div.b1i-slider {margin: 0 auto; padding: 52px 0 0 0; float: none;}
+	
+	/* block-2 */
+	div.block-2-inside {width: 882px}
+	ul.bl2-ul h4 a {font-size: 18px;}
+	ul.bl2-ul {width: 273px; margin: 0 30px 0 0;}
+	.bl2-ul li img {width: 273px;}
+	ul li.img-hover a {width: 242px; height: 138px;}
+	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
+	
+	/* block-3 */
+	div.block-3-inside {width: 882px; padding: 23px 0 0 0;}
+	.b3-sidebar {padding: 32px 0 0 0;}
+	ul.b3-body {padding: 4px 0 18px 40px;}
+	ul.b3-body li {padding: 7px 0 5px 0;}
+	div.b3-sidebar ul > li > a:before {top: 3px; left: 2px;}
+	div.b3-content {width: 645px;}
+	.tablet-visible > h3 {padding: 0 0 7px 0; border-bottom: 1px dotted #acacac;}
+	div.logo-2 {padding: 16px 0 10px 0;}
+	ul.porduct {width: 24%; margin: 32px 44px 7px 28px;}
+	li ul.porduct-4 {margin-right: 44px;}
+	li ul.porduct-3 {margin-right: 0;}
+
+
 
  
-}     
+
+
+}
 
 
 /*----------------------------------------------*/
 
 
-@media (min-width:1280px) and (max-width:1899px){ 
+@media (min-width:640px) and (max-width:891px){ 
 
  
 }
@@ -16,53 +62,9 @@
 /*----------------------------------------------*/
 
 
-@media (min-width:960px) and (max-width:1279px){ 
+@media (min-width:320px) and (max-width:639px){ 
 
  
 }
-
-
-/*----------------------------------------------*/
-
-
-@media (min-width:768px) and (max-width:959px){ 
-
- 
-}
-
-
-/*----------------------------------------------*/
-
-
-@media (min-width:480px) and (max-width:767px){ 
-
- 
-}
-
-
-/*----------------------------------------------*/
-
-
-@media (min-width:241px) and (max-width:479px) { 
-
-
-}
-
-
-/*----------------------------------------------*/
-
-
-@media (min-width:100px) and (max-width:240px) { 
-
- 
-
-}
-
-
-
-
-
-
-
 
 

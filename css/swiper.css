@@ -110,7 +110,7 @@
 .swiper-button-prev,
 .swiper-button-next {
   position: absolute;
-  top: 50%;
+  top: 54%;
   width: 30px;
   height: 29px;
   margin-top: -22px;
@@ -122,12 +122,12 @@
   background-position: center;
   background-repeat: no-repeat;
 }
-.swiper-button-prev.swiper-button-disabled,
+/*.swiper-button-prev.swiper-button-disabled,
 .swiper-button-next.swiper-button-disabled {
-  opacity: 0.35;
+  opacity: 0;
   cursor: auto;
   pointer-events: none;
-}
+}*/
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
   background: url("../images/block-3/swiper/next-prew-bg.png") 0px 0px no-repeat;

@@ -387,14 +387,14 @@
   
   //FlexSlider: Default Settings
   $.flexslider.defaults = {
-    animation: "fade",              //Select your animation type (fade/slide)
-    slideshow: false,                //Should the slider animate automatically by default? (true/false)
-    slideshowSpeed: 1000,           //Set the speed of the slideshow cycling, in milliseconds
-    animationDuration: 600,         //Set the speed of animations, in milliseconds
+    animation: "slide",              //Select your animation type (fade/slide)
+    slideshow: true,                //Should the slider animate automatically by default? (true/false)
+    slideshowSpeed: 15000,           //Set the speed of the slideshow cycling, in milliseconds
+    animationDuration: 1000,         //Set the speed of animations, in milliseconds
     directionNav: true,             //Create navigation for previous/next navigation? (true/false)
-    controlNav: true,               //Create navigation for paging control of each clide? (true/false)
+    controlNav: false,               //Create navigation for paging control of each clide? (true/false)
     keyboardNav: true,              //Allow for keyboard navigation using left/right keys (true/false)
-    touchSwipe: true,               //Touch swipe gestures for left/right slide navigation (true/false)
+    touchSwipe: false,               //Touch swipe gestures for left/right slide navigation (true/false)
     prevText: "Previous",           //Set the text for the "previous" directionNav item
     nextText: "Next",               //Set the text for the "next" directionNav item
     pausePlay: false,               //Create pause/play dynamic element (true/false)
