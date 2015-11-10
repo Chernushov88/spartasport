@@ -59,7 +59,9 @@ a{
 .tablet-visible{
 	display: none;
 }
-
+.visible-640{
+	display: none;
+}
 /* ------------------------------  Start header ------------------------------ */
 header{
 	width: 100%;
@@ -73,6 +75,18 @@ header{
 	overflow: hidden;
 	width: 1170px;
 	margin: 0 auto;
+}
+#touch-menu{
+	width: 23px;
+	height: 18px;
+	float: left;
+	background: url(images/touch-menu-bg.png);
+}
+#touch-menu-2{
+	width: 24px;
+	height: 24px;
+	background: url(images/touch-menu2-bg.png);
+	float: right;
 }
 .hnt-left{
 	float: left;
@@ -108,7 +122,6 @@ header{
 	color: #fc7f05;
 }
 .hnt-right li span{
-	display: inline-block;
 	padding: 0 6px;
 	font-size: 12px;
 	color: #fff;
@@ -120,7 +133,7 @@ header{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 17px 0 33px 0;
-	border: 0px solid #00ccff;
+	border: 1px solid #00ccff;
 }
 .logo{
 	padding: 10px 0 0 2px;
@@ -337,7 +350,7 @@ form.hi-form :-ms-input-placeholder {
 	width: 1170px;
 	margin: 0 auto;
 	padding: 11px 0 0 0;
-	border: 0px solid #f0C0D1;
+	border: 1px solid #f0C0D1;
 }
 .bl2-ul{
 	width: 354px;
@@ -655,11 +668,14 @@ li.img-hover a:hover{
 	position: absolute;
     top: -169px;
     left: 4px;
+    width: 529px;
+    height: 537px;
+    background: url(images/subscribe.png);
 }
 .blai4-right{
 	position: absolute;
-	right: -60px;
-    width: 694px;
+	right: 0px;
+    width: 606px;
     padding: 93px 0 0 0;
 }
 .blai4-top h3{
@@ -684,7 +700,7 @@ li.img-hover a:hover{
 }
 .blai4-top p{
 	display: inline-block;
-    width: 332px;
+    width: 243px;
     padding: 3px 0 0 0;
     line-height: 17px;
 	font-size: 14px;
@@ -743,18 +759,27 @@ li.img-hover a:hover{
 }
 .block-5-inside{
 	width: 1170px;
-	height: 1865px;
 	margin: 0 auto;
-    padding: 10px 0 0 0;
+    padding: 10px 0 35px 0;
 	border: 0px solid #4154D1;
 }
 .tabs{
     padding: 20px 0;
 }
+.tabs__caption li.active a{
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+}
 .tabs__caption{
-	overflow: hidden;
+	height: 57px;
 	border-bottom: 1px dotted #979797;
 }
+
 .tabs__caption li:first-child{
 	padding-left: 0;
 }
@@ -824,7 +849,7 @@ li.img-hover a:hover{
 	width: 720px;
 	float: right;
 }
-.sparta-desc h4{
+.sparta h4{
 	padding: 2px 0 11px 0;
 	text-transform: uppercase;
     font-family: 'PFStampsProMeta';
@@ -833,6 +858,7 @@ li.img-hover a:hover{
 }
 .sparta-desc p{
 	padding: 0 0 16px 0;
+	text-align: justify;
     font-size: 14px;
     color: #000;
     line-height: 17px;
@@ -863,10 +889,12 @@ li.img-hover a:hover{
 .comment-desc span{
 	display: block;
 	padding: 4px 0 12px 74px;
+    font-weight: 500;
 	font-size: 16px;
 }
 .comment-desc p{
 	padding: 0 0 18px 0;
+	text-align: justify;
     line-height: 16px;
     font-style: italic;
 	font-size: 14px;
@@ -880,8 +908,9 @@ footer{
 }
 /* Start footer-inside */
 .footer-inside{
+	overflow: hidden;
 	width: 1170px;
-	height: 387px;
+	min-height: 387px;
 	margin: 0 auto;
 	padding: 69px 0 0 0;
 	border: 0px solid #fcf;

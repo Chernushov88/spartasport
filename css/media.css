@@ -1,5 +1,4 @@
-﻿ 
- @media (min-width:892px) and (max-width:1187px){ 
+﻿  @media (min-width:892px) and (max-width:1187px){ 
  	/* header */
  	.tablet-visible {display: block !important;}
  	.desctop-visible {display: none;}
@@ -18,11 +17,11 @@
 	div.hi-center ul {padding: 22px 0 0 38px;}
 	
 	/* block-1 */
-	div.block-1-inside {width: 882px;}
+	div.block-1-inside {width: 892px;}
 	div.b1i-slider {margin: 0 auto; padding: 52px 0 0 0; float: none;}
 	
 	/* block-2 */
-	div.block-2-inside {width: 882px}
+	div.block-2-inside {width: 892px}
 	ul.bl2-ul h4 a {font-size: 18px;}
 	ul.bl2-ul {width: 273px; margin: 0 30px 0 0;}
 	.bl2-ul li img {width: 273px;}
@@ -30,7 +29,7 @@
 	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
 	
 	/* block-3 */
-	div.block-3-inside {width: 882px; padding: 23px 0 0 0;}
+	div.block-3-inside {width: 892px; padding: 23px 0 0 0;}
 	.b3-sidebar {padding: 32px 0 0 0;}
 	ul.b3-body {padding: 4px 0 18px 40px;}
 	ul.b3-body li {padding: 7px 0 5px 0;}
@@ -42,9 +41,40 @@
 	li ul.porduct-4 {margin-right: 44px;}
 	li ul.porduct-3 {margin-right: 0;}
 
+	/* block-4 */
+	div.block-4-inside {width: 892px;}
+	div.blai4-left {left: -30px;} 
+	div.blai4-right {width: 345px; margin: 0 22px 0 0; padding: 46px 0px 0 0;}
+	div.blai4-top p {width: 334px; padding: 0; float: none;}
+	form.blai4-form {padding: 17px 0 0 0;}
+	form.blai4-form input[type=text] {width: 100%; margin: 0 0 11px 0;}
+	form.blai4-form input[type=submit] {width: 100%;}
 
-
- 
+	/* block-5 */
+	/* tabs */
+	div.tabs {padding: 20px 0 0px 0;}
+	div.block-5-inside {width: 892px;}
+	ul.porduct2 {width: 16%; margin: 32px 51px 7px 34px;}
+	li ul.porduct-5 {margin-right: 51px;}
+	li ul.porduct2-4 {margin-right: 0;}
+	/* bl5-bottom */
+	/* sparta */
+	div.sparta {padding: 26px 0 30px 0;}
+	div.sparta-desc {width: 432px;}
+	div.sparta h4 {padding: 2px 0 15px 0;}
+	div.sparta-desc p { padding: 0; line-height: 16px;}
+	/* comment */
+	div.flexslider {padding: 14px 0 19px 18px;}
+	div.comment-desc {width: 73.7%; padding: 0px 30px 35px 0; background: url(../images/block-5/comment-desc-bg-tablet.png) no-repeat 0px 0px;}
+	div.comment-desc h5 {padding: 0 0 0 73px;}
+	div.comment-desc span {padding: 3px 0 9px 71px;}
+	/* footer */
+	div.footer-inside {width: 892px;}
+	div.menu {width: 131px;}
+	div.connected {padding: 28px 0 0 0;}
+	div.connected h4 {background: url(../images/footer/connected-bg.png) 0px 0px no-repeat;}
+	div.fb-inside {width: 892px;} 
+	div#scroll {right: 6%;}
 
 
 }
@@ -53,7 +83,109 @@
 /*----------------------------------------------*/
 
 
-@media (min-width:640px) and (max-width:891px){ 
+@media (min-width:640px) and (max-width:891px){ 	
+	/* header */
+	#touch-menu {display: block;}
+ 	.tablet-visible {display: block !important;}
+ 	.desctop-visible {display: none;}
+ 	.hidden-640 {display: none !important;}
+ 	.visible-640 {display: block !important;}
+
+	div.hnt-inside {width: 594px; padding: 10px 0 5px 0;}
+	nav.hnt-left {display: none; position: absolute; top: 34px; left: 25px; z-index: 100; width: 60%; border: 1px solid #ccc;}
+	nav.hnt-left li {padding: 0; float: none;}
+	nav.hnt-left li a {display: block; padding: 7px 0; border-top: 1px solid #eee; border-left: 3px solid transparent; background: #fff; color: #666;}
+	nav.hnt-left li:first-child a {border-top: none;}
+	nav.hnt-left li a:hover {background: #f0f0f0; color: #444; border-left: 3px solid #515572;}
+
+	nav.hnt-right {display: none; position: absolute; top: 34px; right: 25px; z-index: 100; width: 30%; border: 1px solid #ccc;}
+	nav.hnt-right li {padding: 0; float: none;}
+	nav.hnt-right li a {display: block; padding: 7px 0; border-top: 1px solid #eee; border-left: 3px solid transparent; background: #fff; color: #666;}
+	nav.hnt-right li:first-child a {border-top: none;}
+	nav.hnt-right li a:hover {background: #f0f0f0; color: #444; border-left: 3px solid #515572;}
+
+
+	div.header-inside {width: 594px; padding: 2px 0 10px 0;}
+	.logo img{width: 140px;}
+	.header-inside form.hi-form {float: none;}
+	form.hi-form li:first-child {position: relative; margin: 21px 0 0 0; float: right;}
+	form.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
+	form.hi-form li input[type=text] {width: 100%; margin: 0;}
+	.header-inside form.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
+
+	div.hi-center ul {display: none; padding: 22px 0 0 38px;}
+	
+	/* block-1 */
+	div.block-1-inside {width: 594px;}
+	div.b1i-slider {margin: 0 auto; padding: 52px 0 0 0; float: none;}
+	
+	/* block-2 */
+	div.block-2-inside {width: 594px; padding: 0;}
+	ul.bl2-ul h4 a {font-size: 18px;}
+	ul.bl2-ul {width: 270px; margin: 0 12px 0 13px;}
+	ul.bl2-ul li img {width: 270px; padding: 14px;}
+	ul li.img-hover a {width: 242px; height: 138px;}
+	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
+	
+	/* block-3 */
+	div.block-3-inside {width: 594px; padding: 23px 0 20px 0;}
+	.b3-sidebar {padding: 32px 0 0 0;}
+	ul.b3-body {padding: 4px 0 18px 40px;}
+	ul.b3-body li {padding: 7px 0 5px 0;}
+	div.b3-sidebar ul > li > a:before {top: 3px; left: 2px;}
+	div.b3-content {width: 594px; margin: 0 auto;}
+	.tablet-visible > h3 {padding: 0 0 7px 0; border-bottom: 1px dotted #acacac;}
+	div.logo-2 {padding: 16px 0 10px 0;}
+	ul.porduct {width: 22%; margin: 32px 65px 7px 10px;}
+	li ul.porduct-4 {margin-right: 65px;}
+	li ul.porduct-3 {margin-right: 0;}
+
+	/* block-4 */
+	div.block-4-inside {width: 594px;}
+	div.blai4-left {top: -80px; left: -21px; width: 406px; height: 450px; background: url(../images/subscribe-640.png);} 
+	div.blai4-right {width: 278px; padding: 42px 0px 0 0;}
+	div.blai4-top h3 {width: 284px;}
+	span.sing-up {font-size: 34px;}
+	span.subsc {line-height: 50px; font-size: 58px;}
+	span.sign {font-size: 102px; padding: 0 0 0 10px; line-height: 95px;}
+	div.blai4-top p {width: 280px; padding: 0; float: none;}
+	form.blai4-form input[type=text] {width: 100%; margin: 0 0 11px 0;}
+	form.blai4-form input[type=submit] {width: 100%;}
+
+	/* block-5 */
+	/* tabs */
+	div.tabs {padding: 20px 0 0px 0;}
+	div.block-5-inside {width: 594px;}
+	ul.porduct2 {width: 21%; margin: 32px 51px 7px 19px;}
+	li ul.porduct-5 {margin-right: 51px;}
+	li ul.porduct2-4 {margin-right: 51px;}
+	/* bl5-bottom */
+	/* sparta */
+	div.sparta {padding: 26px 0 30px 0;}
+	div.sparta-desc { width: 100%; padding: 30px 0 0 0;}
+	div.sparta h4 {padding: 2px 0 15px 0;}
+	div.sparta img {width: 100%; float: none;}
+	div.sparta-desc p { padding: 0; line-height: 16px;}
+	/* comment */
+	div.flexslider {padding: 14px 0 19px 18px;}
+	div.comment-desc {width: 60%; padding: 0px 20px 35px 0; background: url(../images/block-5/comment-desc-bg-640.png) no-repeat 0px 46px;}
+	div.comment-desc h5 {padding: 0 0 0 0px;}
+	div.comment-desc span {padding: 3px 0 30px 0px;}
+	/* footer */
+	div.footer-inside {width: 594px; padding: 54px 0 0 0;}
+	div.menu {width: 100%;}
+	.menu h4 {float: left;}
+	div.menu ul {padding: 0px 0 0 0; float: left;}
+	.menu ul li {padding: 0 3px 0 22px; float: left;}
+	div.connected {width: 100%; padding: 23px 0 0 0;}
+	div.connected h4 {background: url(../images/footer/connected-bg.png) 0px 0px no-repeat; float: left;}
+	.social {overflow: hidden; display: block; margin: -6px 0 0 23px; float: left;}
+	div.spartaSport {width: 100%; padding: 0 0 39px 0;}
+	form.footer-calback {float: left; padding: 28px 0;}
+	div.fb-inside {width: 594px;} 
+	div.fb-inside p {text-align: center; padding: 15px 0;}
+	div#scroll {right: 6%;}
+
 
  
 }
@@ -63,7 +195,110 @@
 
 
 @media (min-width:320px) and (max-width:639px){ 
+	/* header */
+	#touch-menu {display: block;}
+ 	.tablet-visible {display: block !important;}
+ 	.desctop-visible {display: none;}
+ 	.hidden-640 {display: none !important;}
+ 	.visible-640 {display: block !important;}
 
+	div.hnt-inside {width: 296px; padding: 10px 0 5px 0;}
+	nav.hnt-left {display: none; position: absolute; top: 34px; left: 25px; z-index: 100; width: 60%; border: 1px solid #ccc;}
+	nav.hnt-left li {padding: 0; float: none;}
+	nav.hnt-left li a {display: block; padding: 7px 0; border-top: 1px solid #eee; border-left: 3px solid transparent; background: #fff; color: #666;}
+	nav.hnt-left li:first-child a {border-top: none;}
+	nav.hnt-left li a:hover {background: #f0f0f0; color: #444; border-left: 3px solid #515572;}
+
+	nav.hnt-right {display: none; position: absolute; top: 34px; right: 25px; z-index: 100; width: 42%; border: 1px solid #ccc;}
+	nav.hnt-right li {padding: 0; float: none;}
+	nav.hnt-right li a {display: block; padding: 7px 0; border-top: 1px solid #eee; border-left: 3px solid transparent; background: #fff; color: #666;}
+	nav.hnt-right li:first-child a {border-top: none;}
+	nav.hnt-right li a:hover {background: #f0f0f0; color: #444; border-left: 3px solid #515572;}
+
+
+	div.header-inside {width: 296px; padding: 2px 0 10px 0;}
+	div.logo {float: none; text-align: center;}
+	.logo img{width: 140px;}
+	.header-inside form.hi-form {float: none;}
+	form.hi-form li:first-child {display: none;}
+	form.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
+	form.hi-form li input[type=text] {width: 100%; margin: 0;}
+	.header-inside form.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
+
+	div.hi-center ul {display: none; padding: 22px 0 0 38px;}
+	
+	/* block-1 */
+	div.block-1-inside {width: 296px;}
+	div.b1i-slider {margin: 0 auto; padding: 52px 0 0 0; float: none;}
+	div.li-content-inside {width: 296px; background: none; border: none;}
+	div.bx-wrapper img {display: none;}
+	
+	/* block-2 */
+	div.block-2-inside {width: 296px; padding: 0;}
+	ul.bl2-ul h4 a {font-size: 18px;}
+	ul.bl2-ul {width: 270px; margin: 0 12px 0 13px;}
+	ul.bl2-ul li img {width: 270px; padding: 14px;}
+	ul li.img-hover a {width: 242px; height: 138px;}
+	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
+	
+	/* block-3 */
+	div.block-3-inside {width: 296px; padding: 23px 0 20px 0;}
+	.b3-sidebar {padding: 32px 0 0 0;}
+	ul.b3-body {padding: 4px 0 18px 40px;}
+	ul.b3-body li {padding: 7px 0 5px 0;}
+	div.b3-sidebar ul > li > a:before {top: 3px; left: 2px;}
+	div.b3-content {width: 296px; margin: 0 auto;}
+	.tablet-visible > h3 {padding: 0 0 7px 0; border-bottom: 1px dotted #acacac;}
+	div.logo-2 {padding: 16px 0 10px 0;}
+	ul.porduct {width: 22%; margin: 32px 65px 7px 10px;}
+	li ul.porduct-4 {margin-right: 65px;}
+	li ul.porduct-3 {margin-right: 0;}
+
+	/* block-4 */
+	div.block-4-inside {width: 296px;}
+	div.blai4-left {top: -80px; left: -21px; width: 406px; height: 450px; background: url(../images/subscribe-640.png);} 
+	div.blai4-right {width: 278px; padding: 42px 0px 0 0;}
+	div.blai4-top h3 {width: 284px;}
+	span.sing-up {font-size: 34px;}
+	span.subsc {line-height: 50px; font-size: 58px;}
+	span.sign {font-size: 102px; padding: 0 0 0 10px; line-height: 95px;}
+	div.blai4-top p {width: 280px; padding: 0; float: none;}
+	form.blai4-form input[type=text] {width: 100%; margin: 0 0 11px 0;}
+	form.blai4-form input[type=submit] {width: 100%;}
+
+	/* block-5 */
+	/* tabs */
+	div.tabs {padding: 20px 0 0px 0;}
+	div.block-5-inside {width: 296px;}
+	ul.porduct2 {width: 21%; margin: 32px 51px 7px 19px;}
+	li ul.porduct-5 {margin-right: 51px;}
+	li ul.porduct2-4 {margin-right: 51px;}
+	/* bl5-bottom */
+	/* sparta */
+	div.sparta {padding: 26px 0 30px 0;}
+	div.sparta-desc { width: 100%; padding: 30px 0 0 0;}
+	div.sparta h4 {padding: 2px 0 15px 0;}
+	div.sparta img {width: 100%; float: none;}
+	div.sparta-desc p { padding: 0; line-height: 16px;}
+	/* comment */
+	div.flexslider {padding: 14px 0 19px 18px;}
+	div.comment-desc {width: 60%; padding: 0px 20px 35px 0; background: url(../images/block-5/comment-desc-bg-640.png) no-repeat 0px 46px;}
+	div.comment-desc h5 {padding: 0 0 0 0px;}
+	div.comment-desc span {padding: 3px 0 30px 0px;}
+	/* footer */
+	div.footer-inside {width: 296px; padding: 54px 0 0 0;}
+	div.menu {width: 100%;}
+	.menu h4 {float: left;}
+	div.menu ul {padding: 0px 0 0 0; float: left;}
+	.menu ul li {padding: 0 3px 0 22px; float: left;}
+	div.connected {width: 100%; padding: 23px 0 0 0;}
+	div.connected h4 {background: url(../images/footer/connected-bg.png) 0px 0px no-repeat; float: left;}
+	.social {overflow: hidden; display: block; margin: -6px 0 0 23px; float: left;}
+	div.spartaSport {width: 100%; padding: 0 0 39px 0;}
+	form.footer-calback {float: left; padding: 28px 0;}
+	div.fb-inside {width: 296px;} 
+	div.fb-inside p {text-align: center; padding: 15px 0;}
+	div#scroll {right: 6%;}
  
 }
 

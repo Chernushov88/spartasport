@@ -94,6 +94,7 @@
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
 	background: #fc7f05;
+    border-radius: 5px;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
