@@ -1,7 +1,20 @@
-﻿  @media (min-width:892px) and (max-width:1187px){ 
+﻿  @media (min-width:1188px) and (max-width:4000px){
+  	div.block-3-inside {
+    position: relative;}
+	div.owl-slider {
+    position: absolute;
+    top: 51px;
+    right: 0;
+    width: 858px;
+    padding: 7px 0 0 0;
+}
+
+
+  }
+  @media (min-width:892px) and (max-width:1187px){ 
  	/* header */
  	.tablet-visible {display: block !important;}
- 	.desctop-visible {display: none;}
+ 	.desctop-visible {display: none !important;}
 	div.hnt-inside {width: 892px;}
 	nav.hnt-left li {padding: 0 15px 0 3px;}
 	nav.hnt-left li a {letter-spacing: 0px;}
@@ -22,10 +35,10 @@
 	
 	/* block-2 */
 	div.block-2-inside {width: 892px}
-	ul.bl2-ul h4 a {font-size: 18px;}
+	ul.bl2-ul h4 a {display: table-cell; vertical-align: middle; height: 42px; font-size: 18px;}
 	ul.bl2-ul {width: 273px; margin: 0 30px 0 0;}
 	.bl2-ul li img {width: 273px;}
-	ul li.img-hover a {width: 242px; height: 138px;}
+	ul li.img-hover a {top: 15px; width: 240px; height: 136px;}
 	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
 	
 	/* block-3 */
@@ -65,7 +78,7 @@
 	div.sparta-desc p { padding: 0; line-height: 16px;}
 	/* comment */
 	div.flexslider {padding: 14px 0 19px 18px;}
-	div.comment-desc {width: 73.7%; padding: 0px 30px 35px 0; background: url(../images/block-5/comment-desc-bg-tablet.png) no-repeat 0px 0px;}
+	div.comment-desc {width: 73.7%; padding: 0px 30px 85px 0; background: url(../images/block-5/comment-desc-bg-tablet.png) no-repeat 0px 0px;}
 	div.comment-desc h5 {padding: 0 0 0 73px;}
 	div.comment-desc span {padding: 3px 0 9px 71px;}
 	/* footer */
@@ -85,9 +98,10 @@
 
 @media (min-width:640px) and (max-width:891px){ 	
 	/* header */
-	#touch-menu {display: block;}
+	a#touch-menu {display: block;}
+	a#touch-menu-2 {display: block;}
  	.tablet-visible {display: block !important;}
- 	.desctop-visible {display: none;}
+ 	.desctop-visible {display: none !important;}
  	.hidden-640 {display: none !important;}
  	.visible-640 {display: block !important;}
 
@@ -124,7 +138,7 @@
 	ul.bl2-ul h4 a {font-size: 18px;}
 	ul.bl2-ul {width: 270px; margin: 0 12px 0 13px;}
 	ul.bl2-ul li img {width: 270px; padding: 14px;}
-	ul li.img-hover a {width: 242px; height: 138px;}
+	ul li.img-hover a {top: 15px; width: 240px; height: 136px;}
 	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
 	
 	/* block-3 */
@@ -143,11 +157,11 @@
 	/* block-4 */
 	div.block-4-inside {width: 594px;}
 	div.blai4-left {top: -80px; left: -21px; width: 406px; height: 450px; background: url(../images/subscribe-640.png);} 
-	div.blai4-right {width: 278px; padding: 42px 0px 0 0;}
-	div.blai4-top h3 {width: 284px;}
-	span.sing-up {font-size: 34px;}
-	span.subsc {line-height: 50px; font-size: 58px;}
-	span.sign {font-size: 102px; padding: 0 0 0 10px; line-height: 95px;}
+	div.blai4-right {width: 285px; padding: 42px 0px 0 0;}
+	div.blai4-top h3 {width: 285px;}
+	span.sing-up {font-size: 30px;}
+	span.subsc {line-height: 46px; font-size: 50px;}
+	span.sign {font-size: 98px; padding: 0 0 0 10px; line-height: 90px;}
 	div.blai4-top p {width: 280px; padding: 0; float: none;}
 	form.blai4-form input[type=text] {width: 100%; margin: 0 0 11px 0;}
 	form.blai4-form input[type=submit] {width: 100%;}
@@ -196,11 +210,13 @@
 
 @media (min-width:320px) and (max-width:639px){ 
 	/* header */
-	#touch-menu {display: block;}
+	a#touch-menu {display: block;}
+	a#touch-menu-2 {display: block;}
  	.tablet-visible {display: block !important;}
- 	.desctop-visible {display: none;}
+ 	.desctop-visible {display: none !important;}
  	.hidden-640 {display: none !important;}
  	.visible-640 {display: block !important;}
+ 	.hidden-320 {display: none !important;}
 
 	div.hnt-inside {width: 296px; padding: 10px 0 5px 0;}
 	nav.hnt-left {display: none; position: absolute; top: 34px; left: 25px; z-index: 100; width: 60%; border: 1px solid #ccc;}
@@ -208,6 +224,14 @@
 	nav.hnt-left li a {display: block; padding: 7px 0; border-top: 1px solid #eee; border-left: 3px solid transparent; background: #fff; color: #666;}
 	nav.hnt-left li:first-child a {border-top: none;}
 	nav.hnt-left li a:hover {background: #f0f0f0; color: #444; border-left: 3px solid #515572;}
+	
+	ul.hi-form-a {display: block; float: right}
+	a.star {display: block; width: 24px; height: 23px; margin: 0 17px 0 0; background: url(../images/header/star-bg.png) 0px 0px no-repeat; border: none; float: left;}
+	a.card {display: block; width: 26px; height: 25px; margin: 0 27px 0 0; background: url(../images/header/card2-bg.png) 0px 0px no-repeat; float: left;}
+
+
+
+
 
 	nav.hnt-right {display: none; position: absolute; top: 34px; right: 25px; z-index: 100; width: 42%; border: 1px solid #ccc;}
 	nav.hnt-right li {padding: 0; float: none;}
@@ -228,17 +252,28 @@
 	div.hi-center ul {display: none; padding: 22px 0 0 38px;}
 	
 	/* block-1 */
-	div.block-1-inside {width: 296px;}
-	div.b1i-slider {margin: 0 auto; padding: 52px 0 0 0; float: none;}
+	section.block-1 {background: url(../images/block-1/block-1-bg-320.jpg) center 0 no-repeat; background-size: 100% 100%;}
+	div.li-content-inside:after {display: none;}
+	div.block-1-inside {width: 296px; height: auto;}
+	div.b1i-slider {width: 296px;}
+	div.b1i-slider {height: auto; padding: 26px 0 20px 0;margin: 0 auto; float: none;}
 	div.li-content-inside {width: 296px; background: none; border: none;}
+	div.bxslider-li-content {padding: 0px 0px 0px 0;}
+	div.li-content-inside h2 {padding: 0px 0 0 68px;}
+	span.hadkor {top: 38px;}	
 	div.bx-wrapper img {display: none;}
+	p.bxslider-text {padding: 8px 0px 23px 0px;}
+	a.bxslider-more {position: absolute; top: 295px; left: 20%;}
+
+	div.bx-wrapper .bx-pager{position: absolute; top: auto; bottom: 10px; right: 50%; width: auto;}
+	div.bx-wrapper .bx-pager.bx-default-pager a {width: 9px; height: 9px; margin: 0 0 0 5px;}
 	
 	/* block-2 */
 	div.block-2-inside {width: 296px; padding: 0;}
 	ul.bl2-ul h4 a {font-size: 18px;}
-	ul.bl2-ul {width: 270px; margin: 0 12px 0 13px;}
+	ul.bl2-ul {width: 270px; margin: 0 12px 10px 13px;}
 	ul.bl2-ul li img {width: 270px; padding: 14px;}
-	ul li.img-hover a {width: 242px; height: 138px;}
+	ul li.img-hover a {top: 15px; width: 240px; height: 136px;}
 	ul.bl2-ul li p {padding: 15px 0 11px 2px;}
 	
 	/* block-3 */
@@ -250,29 +285,29 @@
 	div.b3-content {width: 296px; margin: 0 auto;}
 	.tablet-visible > h3 {padding: 0 0 7px 0; border-bottom: 1px dotted #acacac;}
 	div.logo-2 {padding: 16px 0 10px 0;}
-	ul.porduct {width: 22%; margin: 32px 65px 7px 10px;}
-	li ul.porduct-4 {margin-right: 65px;}
-	li ul.porduct-3 {margin-right: 0;}
+	ul.porduct {width: 51%; margin: 23px auto 7px auto;  left: 20%;}
 
 	/* block-4 */
 	div.block-4-inside {width: 296px;}
-	div.blai4-left {top: -80px; left: -21px; width: 406px; height: 450px; background: url(../images/subscribe-640.png);} 
-	div.blai4-right {width: 278px; padding: 42px 0px 0 0;}
-	div.blai4-top h3 {width: 284px;}
-	span.sing-up {font-size: 34px;}
-	span.subsc {line-height: 50px; font-size: 58px;}
-	span.sign {font-size: 102px; padding: 0 0 0 10px; line-height: 95px;}
-	div.blai4-top p {width: 280px; padding: 0; float: none;}
+	div.blai4-left {display: none;} 
+	div.blai4-right {width: 296px; padding: 42px 0px 0 0;}
+	div.blai4-top h3 {width: 100%;}
+	span.sing-up {font-size: 30px;}
+	span.subsc {line-height: 46px; font-size: 50px;}
+	span.sign {font-size: 98px; padding: 0 0 0 10px; line-height: 90px;}
+	div.blai4-top p {width: 100%; padding: 0; float: none;}
 	form.blai4-form input[type=text] {width: 100%; margin: 0 0 11px 0;}
 	form.blai4-form input[type=submit] {width: 100%;}
 
 	/* block-5 */
 	/* tabs */
-	div.tabs {padding: 20px 0 0px 0;}
+	div.tabs {padding: 20px 0 0px 0;}	
 	div.block-5-inside {width: 296px;}
-	ul.porduct2 {width: 21%; margin: 32px 51px 7px 19px;}
-	li ul.porduct-5 {margin-right: 51px;}
-	li ul.porduct2-4 {margin-right: 51px;}
+	ul.tabs__caption {border: none;}
+	ul.tabs__caption li {width: 50%; text-align: center; border: 1px dotted #979797;}
+
+	ul.porduct2 {width: 51%; margin: 23px auto 7px auto; left: 20%;}
+
 	/* bl5-bottom */
 	/* sparta */
 	div.sparta {padding: 26px 0 30px 0;}
@@ -281,24 +316,36 @@
 	div.sparta img {width: 100%; float: none;}
 	div.sparta-desc p { padding: 0; line-height: 16px;}
 	/* comment */
-	div.flexslider {padding: 14px 0 19px 18px;}
-	div.comment-desc {width: 60%; padding: 0px 20px 35px 0; background: url(../images/block-5/comment-desc-bg-640.png) no-repeat 0px 46px;}
-	div.comment-desc h5 {padding: 0 0 0 0px;}
-	div.comment-desc span {padding: 3px 0 30px 0px;}
+	div.flexslider {padding: 14px 0 0 0;}
+	div.flexslider .slides img {display: block; margin: 0 auto; float: none;}
+	div.comment-desc {width: 100%; padding: 0px 0px 35px 0; background: none;}
+	div.comment-desc h5 {padding: 15px 0 0 0px; text-align: center;}
+	div.comment-desc span {padding: 3px 0 10px 0px; text-align: center;}
+	div.comment-desc p {padding: 0 1px 18px 0;}
+	div.cbp-fwslider nav span.cbp-fwprev {top: auto; bottom: 0; left: 0;}
+	div.cbp-fwslider nav span.cbp-fwnext {right: 0; bottom: 0; top: auto;}
 	/* footer */
 	div.footer-inside {width: 296px; padding: 54px 0 0 0;}
+	div.spartaSport h4 {text-align: center; background: url(../images/footer/spartaSport-bg.png) 75px 0px no-repeat;}
 	div.menu {width: 100%;}
-	.menu h4 {float: left;}
+	div.menu h4 {text-align: center; background: url(../images/footer/menu-bg.png) 110px 0px no-repeat;}
 	div.menu ul {padding: 0px 0 0 0; float: left;}
-	.menu ul li {padding: 0 3px 0 22px; float: left;}
+	.menu ul li {padding: 0 3px 20px 22px; float: left;}
+	.menu ul li:nth-child(4) {padding: 0 3px 20px 40px;}
 	div.connected {width: 100%; padding: 23px 0 0 0;}
-	div.connected h4 {background: url(../images/footer/connected-bg.png) 0px 0px no-repeat; float: left;}
-	.social {overflow: hidden; display: block; margin: -6px 0 0 23px; float: left;}
+	div.connected h4 {text-align: center; background: url(../images/footer/connected-bg.png) 65px 0px no-repeat;}
+	.social {display: table; margin: 0px auto;}
+	div.connected li {padding: 0 0px 0 14px;}
 	div.spartaSport {width: 100%; padding: 0 0 39px 0;}
-	form.footer-calback {float: left; padding: 28px 0;}
+	form.footer-calback {width: 100%; padding: 28px 0;}
+	form.footer-calback h4 {text-align: center; background: url(../images/footer/calback-bg.png) 42px 3px no-repeat;}
+	form.footer-calback input[type=text] {width: 100%;}
+	form.footer-calback input[type=submit] {display: table; margin: 14px auto 0 auto;}
+
 	div.fb-inside {width: 296px;} 
 	div.fb-inside p {text-align: center; padding: 15px 0;}
 	div#scroll {right: 6%;}
+	
  
 }
 

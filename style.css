@@ -62,6 +62,12 @@ a{
 .visible-640{
 	display: none;
 }
+.visible-320{
+	display: none;
+}
+.desctop-visible{
+	display: block;
+}
 /* ------------------------------  Start header ------------------------------ */
 header{
 	width: 100%;
@@ -77,15 +83,17 @@ header{
 	margin: 0 auto;
 }
 #touch-menu{
+	display: none;
 	width: 23px;
 	height: 18px;
 	float: left;
-	background: url(images/touch-menu-bg.png);
+	background: url(images/header/touch-menu-bg.png);
 }
 #touch-menu-2{
+	display: none;
 	width: 24px;
 	height: 24px;
-	background: url(images/touch-menu2-bg.png);
+	background: url(images/header/touch-menu2-bg.png);
 	float: right;
 }
 .hnt-left{
@@ -133,7 +141,7 @@ header{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 17px 0 33px 0;
-	border: 1px solid #00ccff;
+	border: 0px solid #00ccff;
 }
 .logo{
 	padding: 10px 0 0 2px;
@@ -257,8 +265,8 @@ form.hi-form :-ms-input-placeholder {
 }
 .block-1-inside{
 	width: 1170px;
-	height: 589px;
 	margin: 0 auto;
+	height: 578px;
 	border: 0px solid #9DC0DD;
 }
 .b1i-slider{
@@ -350,7 +358,7 @@ form.hi-form :-ms-input-placeholder {
 	width: 1170px;
 	margin: 0 auto;
 	padding: 11px 0 0 0;
-	border: 1px solid #f0C0D1;
+	border: 0px solid #f0C0D1;
 }
 .bl2-ul{
 	width: 354px;
@@ -416,7 +424,7 @@ li.img-hover a:hover{
 	width: 1170px;
 	margin: 0 auto;
 	padding: 25px 0 0 0;
-	border: 0px solid #4154D1;
+	border: 1px solid #4154D1;
 }
 .block-3-inside h3 a{
 	display: inline-block;	    
@@ -521,9 +529,13 @@ li.img-hover a:hover{
     border: none;
 }
 /* Stop b3-content */
-/* swiper-slider */
-.swiper-slider{
-	padding: 7px 0 0 0;
+/* owl-slider */
+.owl-slider-dv{
+	width: 100%;
+	height: 56px;
+}
+.item{
+	text-align: center;
 }
 /* Start porduct-catalog */
 .porduct-catalog{
@@ -679,23 +691,23 @@ li.img-hover a:hover{
     padding: 93px 0 0 0;
 }
 .blai4-top h3{
-	width: 350px;
+	width: 362px;
 	font-family: 'AMachinaOrtoSht';	
 	color: #fff;
 	float: left;
 }
 .sing-up{
-	font-size: 43px;
+	font-size: 39px;
 	float: left;
 }
 .subsc{
 	line-height: 65px;
-	font-size: 72px;
+	font-size: 68px;
 	float: left;
 }
 .sign{
-	padding: 0 0 0 5px;
-	line-height: 114px;
+	padding: 0 0 0 15px;
+	line-height: 110px;
     font-size: 127px;    
 }
 .blai4-top p{
@@ -807,7 +819,7 @@ li.img-hover a:hover{
     content: "";
     width: 100%;
     height: 9px;
-    background: #fff url(images/tab-caption-active.png) center top no-repeat;
+    background: #fff url(images/block-5/tab-caption-active.png) center top no-repeat;
     z-index: 100;
 }
 .tabs__content {
@@ -870,8 +882,14 @@ li.img-hover a:hover{
 	text-transform: uppercase;
     font-family: 'PFStampsProMeta';
     font-size: 23px;
-    color: #fc7f06;
-    
+    color: #fc7f06;    
+}
+.comments ul li img{
+    width: 210px;
+    height: 241px;
+    padding: 0 0 0 1px;
+    display: block;
+    float: left;
 }
 .comment-desc{
     width: 79%;
@@ -904,7 +922,7 @@ li.img-hover a:hover{
 /* ------------------------------  Start footer ------------------------------ */
 footer{
 	width: 100%;
-	background: #1e1e1e url(images/footer-bg.jpg) center 0 no-repeat;
+	background: #1e1e1e url(images/footer/footer-bg.jpg) center 0 no-repeat;
 }
 /* Start footer-inside */
 .footer-inside{
@@ -931,7 +949,7 @@ footer{
 }
 .menu a{
 	line-height: 16px;
-    /*text-transform: capitalize;*/
+    text-transform: capitalize;
     font-size: 14px;
     color: #fff;
 }
@@ -1104,3 +1122,133 @@ textarea{
     background: url(images/scroll-bg.png);
 }
 /* ------------------------------  Stop footer ------------------------------ */
+/*-----------------------------------------------------------------------------------*/
+/*  INNER-PAGE
+/*-----------------------------------------------------------------------------------*/
+/* ------------------------------  Stop page-title ------------------------------ */
+.page-title{
+	width: 100%;	
+	background: #f8f8f8 url(images/inner/page-title-bg.png) center top no-repeat;
+}
+.page-title-inside{
+    width: 1170px;
+    height: 61px;
+    margin: -21px auto 0 auto;
+    padding: 17px 0 0 0;
+    font-size: 13px;
+}
+.page-title-map a{
+    display: inline-block;
+    padding: 18px 0px 20px 0px;  
+    color: #616161; 
+}
+.page-title-map a:hover{
+    text-decoration: underline; 
+    color: #000;
+}
+.page-title-map span{
+    padding: 0 1px 0 5px;
+    color: #616161; 
+}
+/* ------------------------------  Stop page-title ------------------------------ */
+/* ------------------------------  Stop b3-content-inner ------------------------------ */
+.b3-content-inner {
+    width: 866px;
+    padding: 0 0 0 4px;
+    float: right;
+}
+.b3-content-inner h2{
+	padding: 0 0 15px 0;
+}
+.b3-content-inner h2 a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 35px;
+    color: #fc7f06;
+}
+.b3-ci-top{
+	overflow: hidden;
+	padding: 0 0 0 15px;
+}
+.b3-ci-top-left{
+	width: 323px;
+	height: 560px;
+	float: left;
+	border: 1px solid #cf0149;
+}
+#carousel2 {
+    margin: 25px 0 0 -2px;
+}
+#carousel2 .slides li img{
+	height: 57px;
+	border:  1px solid #9c9c9c;
+}
+
+
+.b3-ci-top-right{
+	width: 430px;
+	height: 560px;
+	float: right;
+	border: 1px solid #fff014;
+}
+.b3-ci-top-right h3{
+	text-transform: uppercase;
+    font-family: 'PFStampsProMeta';
+    font-size: 23px;
+    color: #a3a3a3;
+    border-bottom: 1px dotted #acacac;
+} 
+.info h3{
+	padding: 0 0 2px 0;
+}
+.info > ul > li{
+	overflow: hidden;
+	width: 300px;
+	padding: 12px 0 0 0;
+}
+.info > ul > li span{
+	font-size: 15px;
+	color: #000;
+	float: left;
+}
+.info > ul > li a{
+	text-decoration: underline;
+	font-size: 15px;
+	color: #fc7f05;
+	float: right;
+}
+.info > ul > li a:hover{
+	text-decoration: none;
+}
+.order{
+
+}
+.order h3{
+	padding: 27px 0 2px 0;
+}
+.order-1, .order-2{
+	height: 50px;
+}
+.order-1 span, .order-2 span{
+	display: inline-block;
+	width: 172px;
+	height: 30px;
+}
+/* ------------------------------  Stop b3-content-inner ------------------------------ */
+
+
+/* ------------------------------  Stop  ------------------------------ */
+/* ------------------------------  Stop  ------------------------------ */
+
+/* ------------------------------  Stop  ------------------------------ */
+/* ------------------------------  Stop  ------------------------------ */
+
+
+
+
+
+
+
+
+
