@@ -1,53 +1,42 @@
 /*	=	Select */
 .select, .select2{
 	display: inline-block;
-	width: 250px;   
+    width: 62%;
+    font-size: 15px;
+    float: right;
 }
-.slct, .slct2, .slct3 {
+.slct, .slct2 {
 	display: block;
-	height: 30px;
+	height: 36px;
+    padding: 10px 0 0 9px;
 	border: 1px solid #cecece;
-	color: #444;
-	background-position: 290px -145px;	
+	color: #000;
 }
-.slct4, .slct5{
+.slct:after, .slct2:after{
 	display: block;
-	border-radius: 5px;
-	border: 1px solid #cecece;
-	background-color: #F6F6f6;
-	color: #444;
-	background-position: 290px -145px;	
+	content: '';
+	width: 13px;
+	height: 9px;
+	margin: 5px 15px 0 0;
+	background: url(../images/inner/select-a-bg.png) no-repeat;
+	float: right;
 }
-.slct.active, .slct2.active, .slct3.active {
+.slct.active, .slct2.active {
 	border-bottom: none;
 }
-.slct4.active, .slct5.active {
-	/*border-bottom: none;*/
+.slct.active:after, .slct2.active:after {
+	background: url(../images/inner/select-a-bg-active.png) no-repeat;
 }
-.drop, .drop2, .drop3 {
+.drop, .drop2 {
 	z-index: 1000;
-	margin: 3px 0 0 10px;
+	margin: 3px 0 0 0px;
     border: 1px solid #cecece;
     border-top: none;
     display: none;
     position: absolute; 
     background: #fff;
 }
-.drop4, .drop5{
-	width: 490px;
-    margin: -12px 0 0 10px;
-	z-index: 1000;
-    border: 2px solid #cbcbcb;
-    border-top: none;
-    display: none;
-    position: absolute; 
-    background: #fff;
-}
-.subcategory-inside .drop3{
-	width: 165px; 
-	display: none;
-}
-.drop li, .drop2 li, .drop3 li {
+.drop li, .drop2 li {
     border-top: 1px dotted #e8e8e8;
     cursor: pointer;
     display: block;
@@ -55,44 +44,15 @@
     padding: 5px 11px 5px 15px;
     float: none;
 }
-.drop4 li, .drop5 li {
-    border-top: 1px dotted #e8e8e8;
-    cursor: pointer;
-    display: block;
-    color: #0f1d2c;
-    padding: 5px 11px 5px 15px;
-    float: none;
-}
-.drop li:hover, .drop2 li:hover, .drop3 li:hover {
+.drop li:hover, .drop2 li:hover {
 	background-color: #e8e8e8;
 	color: #222;
 }
-.drop4 li:hover, .drop5 li:hover {
-	background-color: #e8e8e8;
-	color: #222;
-}
-.drop3{
-	top: 44px;
-    right: 0;
-    border: 1px solid #2574AB;
-}
+
 .drop{
-	width: 207px;
+	width: 100%;
 }
 .drop2{
-	width: 85px;
+	width: 100%;
 }
-.select3 {
-	position: relative;
-	
-}
-.select .drop3 li{
-	min-width: 140px;
-	padding: 5px 0 5px 0;
-    text-align: center;
-	border-top: 1px dotted #2574AB;
-	float: none;
-}
-.select3 .slct.active {
-    border: 3px solid #2574AB;
-}
+

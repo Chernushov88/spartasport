@@ -14,7 +14,6 @@
 .flex-direction-nav {
   margin: 0;
   padding: 0;
-  cursor: pointer;
   list-style: none;
 }
 .flex-pauseplay span {
@@ -115,11 +114,11 @@ html[xmlns] .flexslider .slides {
   content: '\f002';
 }
 .flex-direction-nav .flex-prev {
-  background: url();
+  background: url(images/content/flex-prev.png);
   left: 10px;
 }
 .flex-direction-nav .flex-next {
-  background: url();
+  background: url(images/content/flex-next.png);
   right: 10px;
   text-align: right;
 }
@@ -138,7 +137,7 @@ html[xmlns] .flexslider .slides {
   opacity: 1;
 }
 .flex-direction-nav .flex-disabled {
-  opacity: 1!important;
+  opacity: 0!important;
   filter: alpha(opacity=0);
   cursor: default;
 }
@@ -235,16 +234,18 @@ html[xmlns] .flexslider .slides {
 }
 /*--------------*/
 #carousel2 .slides > li{
-  padding: 0px;
-  margin: 0 16px;
-
-}
-#carousel2 .slides > li:first-child{
-  margin-left: 0;
-}
-#carousel2 .slides > li:last-child{
-  margin-right: 0;
+ margin: 0 12px;
+    cursor: pointer;
+  padding: 0 0 3px 0;
 }
 /* ====================================================================================================================
  * RESPONSIVE
  * ====================================================================================================================*/
+@media (min-width: 767px) {
+  .flex-direction-nav .flex-prev {
+    display: none;
+  }
+  .flex-direction-nav .flex-next {
+    display: none;
+  }
+}
