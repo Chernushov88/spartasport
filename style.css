@@ -186,14 +186,14 @@ header{
 	text-decoration: underline;
 }
 /* hi-form */
-form.hi-form{        
+div.hi-form{        
     float: right;
 }
-form.hi-form li:last-child{
+div.hi-form li:last-child{
 	position: relative;
 	margin: 18px 0 0 0;
 }
-form.hi-form ul li a{
+div.hi-form ul li a{
 	display: inline-block;
 	width: 170px;
 	height: 48px;
@@ -203,7 +203,7 @@ form.hi-form ul li a{
 	font-weight: 600;
 	float: left;
 }
-form.hi-form ul li a:hover{
+div.hi-form ul li a:hover{
 	text-decoration: underline;
 }
 .star{	
@@ -215,7 +215,7 @@ form.hi-form ul li a:hover{
 	background: #fc7f06 url(images/header/card-bg.png) 16px 10px no-repeat;
 	color: #fff;
 }
-form.hi-form input[type=text]{
+div.hi-form input[type=text]{
     overflow: hidden;
     width: 341px;
     height: 36px;
@@ -225,7 +225,7 @@ form.hi-form input[type=text]{
     letter-spacing: 1px;
     border: 1px solid #9c9c9c;    
 }
-form.hi-form input[type=submit]{
+div.hi-form input[type=submit]{
     position: absolute;
     top: 4px;
     right: 12px;
@@ -236,19 +236,19 @@ form.hi-form input[type=submit]{
     border-radius: 43%;
     border: none;
 }
-form.hi-form ::-webkit-input-placeholder {
+div.hi-form ::-webkit-input-placeholder {
     font-size: 15px;
     color: #959393;
 }
-form.hi-form :-moz-placeholder { 
+div.hi-form :-moz-placeholder { 
     font-size: 15px;
     color: #959393;
 }
-form.hi-form ::-moz-placeholder { 
+div.hi-form ::-moz-placeholder { 
 	font-size: 15px;
 	color: #959393;
 }
-form.hi-form :-ms-input-placeholder {
+div.hi-form :-ms-input-placeholder {
 	font-size: 15px;
     color: #959393;
 }

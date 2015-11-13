@@ -20,11 +20,11 @@
 	nav.hnt-left li a {letter-spacing: 0px;}
 	div.header-inside {width: 892px; padding: 7px 0 33px 0;}
 	.logo img{width: 169px;}
-	.header-inside form.hi-form {float: none;}
-	form.hi-form li:first-child {position: relative; margin: 18px 0 0 0; float: left;}
-	form.hi-form ul li:last-child {float: right; margin-right: 31px;}
-	form.hi-form li input[type=text] {width: 284px; height: 38px; margin: 0 0 0 53px; float: left;}
-	.header-inside form.hi-form > ul > li > a {height: 38px; padding: 9px 0 0 28px; letter-spacing: 1px;}
+	.header-inside div.hi-form {float: none;}
+	div.hi-form li:first-child {position: relative; margin: 18px 0 0 0; float: left;}
+	div.hi-form ul li:last-child {float: right; margin-right: 31px;}
+	div.hi-form li input[type=text] {width: 284px; height: 38px; margin: 0 0 0 53px; float: left;}
+	.header-inside div.hi-form > ul > li > a {height: 38px; padding: 9px 0 0 28px; letter-spacing: 1px;}
 	a.star {background: #fff url(../images/header/star-bg.png) 7px 6px no-repeat;}
 	a.card {background: #fc7f06 url(../images/header/card-bg.png) 16px 7px no-repeat;}
 	div.hi-center ul {padding: 22px 0 0 38px;}
@@ -166,11 +166,11 @@
 
 	div.header-inside {width: 594px; padding: 2px 0 10px 0;}
 	.logo img{width: 140px;}
-	.header-inside form.hi-form {float: none;}
-	form.hi-form li:first-child {position: relative; margin: 21px 0 0 0; float: right;}
-	form.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
-	form.hi-form li input[type=text] {width: 100%; margin: 0;}
-	.header-inside form.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
+	.header-inside div.hi-form {float: none;}
+	div.hi-form li:first-child {position: relative; margin: 21px 0 0 0; float: right;}
+	div.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
+	div.hi-form li input[type=text] {width: 100%; margin: 0;}
+	.header-inside div.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
 
 	div.hi-center ul {display: none; padding: 22px 0 0 38px;}
 	
@@ -334,11 +334,11 @@
 	div.header-inside {width: 296px; padding: 2px 0 10px 0;}
 	div.logo {float: none; text-align: center;}
 	.logo img{width: 140px;}
-	.header-inside form.hi-form {float: none;}
-	form.hi-form li:first-child {display: none;}
-	form.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
-	form.hi-form li input[type=text] {width: 100%; margin: 0;}
-	.header-inside form.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
+	.header-inside div.hi-form {float: none;}
+	div.hi-form li:first-child {display: none;}
+	div.hi-form ul li:last-child {margin: 13px 0 0 0; width: 100%;}
+	div.hi-form li input[type=text] {width: 100%; margin: 0;}
+	.header-inside div.hi-form > ul > li > a {padding: 9px 0 0 28px; letter-spacing: 1px;}
 
 	div.hi-center ul {display: none; padding: 22px 0 0 38px;}
 	
