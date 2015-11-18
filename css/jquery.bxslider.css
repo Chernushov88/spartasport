@@ -21,7 +21,7 @@
 	*zoom: 1;
 }
 
-.bx-wrapper img {
+.bx-wrapper img.li-content-inside-img {
 	position: absolute;
 	top: 0px;
     right: 55px;
@@ -30,8 +30,8 @@
 
 /** THEME
 ===================================*/
-
 .bx-wrapper .bx-viewport {
+/*	overflow: visible !important;*/
 	left: -5px;	
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
@@ -45,7 +45,7 @@
 .bx-wrapper .bx-controls-auto {
 	position: absolute;	    
     top: 47%;
-    right: 4px;
+    right: 20%;
     width: 16px;
 }
 
